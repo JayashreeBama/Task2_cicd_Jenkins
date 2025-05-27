@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds') 
-        IMAGE_NAME = "jayashreep2005/nodejs-task2-jenkins"
+        IMAGE_NAME = "jayashreep2005/nodejs-task2-jenkins:latest"
     }
 
     stages {
