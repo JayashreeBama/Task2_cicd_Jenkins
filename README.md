@@ -1,0 +1,1 @@
+In this repo, i learned to use CICD pipeline in Jenkins. I created a Jenkins pipeline to checkout git repository, build node.js app, test application, build docker image for the app and finally deploy image in Docker Hub. I created a Jenkinsfile to write the pipeline flow, i used to trigger the pipeline for every push
